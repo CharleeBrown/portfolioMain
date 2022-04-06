@@ -15,3 +15,12 @@ p{
   list-style-type:none;
 
 }
+
+.header{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+div{
+  text-align: center;
+}
