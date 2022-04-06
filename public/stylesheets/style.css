@@ -18,9 +18,19 @@ p{
 
 .header{
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 div{
   text-align: center;
+}
+
+.menuStyle{
+  list-style-type: none;
+  border-bottom: 1px solid black;
+}
+.menuStyle li{
+  
+  display: inline-block;
+  margin-right:30px;
 }
