@@ -45,3 +45,11 @@ div{
   border-radius:8px;
   border: 1px solid black;
 }
+
+#mainContainer{
+  margin-top:60px !important;
+}
+
+#projectItem{
+  margin-top:20px;
+}

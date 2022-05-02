@@ -1,31 +1,24 @@
 extends layout
 
 block content
-  div(class="container")
-    div(class="jumbotron" id="jumboCon")
-      h3(class="header")|Proto
-      ul(class="menuStyle")
-        li
-          a(href="#")|Home
-        li
-          a(href="#")|About
-  div(class="container")
+  
+  div(class="container" id="mainContainer")
     div(class="row")
       div(class="col")
         h3|Web Projects
         ul(class="projects")
-          li
+          li(id="projectItem")
             a(href="https://lab-booking.herokuapp.com/")|Lab Booking Project (Node.js, Express, CSS, HTML) - Heroku
         ul(class="projects")
-          li
+          li(id="projectItem")
             a(href="https://swansonquotes-one.herokuapp.com/")|Ron Swanson Quotes (Node.js, Express, CSS, HTML) - Heroku
       div(class="col")
         h3|Desktop/Enterprise Projects
         ul(class="projects")
-          li
-            a(href="https://github.com/CharleeBrown/Data-Entry-Form-Java-")|Data Entry Form (Java, Swing(UI), MongoDB) - Github
+          li(id="projectItem")
+            a(href="https://github.com/CharleeBrown/Data-Entry-Form-Java")|Data Entry Form (Java, MongoDB) - Github
 
             ul(class="projects")
-          li
-            a(href="https://github.com/CharleeBrown/RefFinder")| "  (Java, Swing(UI), MongoDB) - Github            
+          li(id="projectItem")
+            a(href="https://github.com/CharleeBrown/RefFinder")|Reference Finder (C# - Winforms) - Github            
 
